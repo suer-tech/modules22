@@ -1,0 +1,52 @@
+/* Стили для чата */
+.chat {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .chat-window {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Стили для сообщений */
+  .message {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 0;
+  }
+  
+  .message.sent {
+    background-color: #dff0d8;
+    text-align: right;
+  }
+  
+  .message a {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .input {
+    display: flex;
+    flex-direction: row;
+  }

@@ -1,0 +1,26 @@
+/* Стили для кнопки и иконок */
+.icon-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  .icon-01 {
+    background-image: url('icon/arrow-down-left-circle.svg'); /* Укажите путь к изображению icon_01 */
+  }
+  
+  .icon-02 {
+    background-image: url('icon/arrow-down-left-circle-fill.svg'); /* Укажите путь к изображению icon_02 */
+  }
+  
